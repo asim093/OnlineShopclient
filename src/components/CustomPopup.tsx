@@ -7,7 +7,7 @@ import {
 } from "react-icons/md";
 import { doLogout } from "../redux/features/authSlice";
 import { Link } from "react-router-dom";
-import toast, { Toaster } from "react-hot-toast";
+import toast from "react-hot-toast";
 
 const CustomPopup: FC = () => {
   const dispatch = useAppDispatch();

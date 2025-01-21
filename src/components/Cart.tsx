@@ -21,8 +21,6 @@ const Cart: FC = () => {
   };
 
   // Corrected _id extraction
-  const allids = items.map((item: any) => item._id);
-  const quantity = items.map((item: any) => item.quantity);
 
   const rawData = localStorage.getItem("userdata");
   const dataArray = rawData ? JSON.parse(rawData) : [];

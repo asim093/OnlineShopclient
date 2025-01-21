@@ -6,7 +6,6 @@ import { useAppDispatch } from "../redux/hooks";
 import toast from "react-hot-toast";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import PriceSection from "./PriceSection";
 import useAuth from "../hooks/useAuth";
 
 const ProductCard: FC<Product> = ({
