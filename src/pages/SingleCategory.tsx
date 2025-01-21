@@ -29,7 +29,7 @@ const SingleCategory: FC = () => {
       </div>
       <div className="grid gap-4 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 my-2">
         {productList?.map((product) => (
-          <ProductCard key={product.id} {...product} />
+          <ProductCard key={product._id} {...product} />
         ))}
       </div>
     </div>
